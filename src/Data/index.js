@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import axios from "axios";
 
 const Data = (id, setData, setLoading) => {
-  const SERVER = "http://localhost:4000";
+  const SERVER = "https://p12-server.onrender.com";
 
   const fetchData = async () => {
     const data = {};
